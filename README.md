@@ -54,4 +54,4 @@ NOTE: to run multiple Editors in IntelliJ you must click Run->Edit configuration
 - To help in development, we have provided an EchoServer which you can run in place of a SketchServer, testing your Editor and EditorCommunicator before worrying about the server side of things and how to go about handling multiple editors. When the EchoServer is running, it will read in input that your EditorCommunicator sends and "echo" it back so that your
 - EditorCommunicator can read it in. This should help you while developing/testing your message protocol for updating a sketch, and that you are actually updating your local sketch correctly according to received messages.
 
-
+Credit to Dartmouth CS10.
